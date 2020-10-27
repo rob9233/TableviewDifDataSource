@@ -13,6 +13,8 @@
 		627E3CDF25481EE200E24452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627E3CDD25481EE200E24452 /* Main.storyboard */; };
 		627E3CE125481EE300E24452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627E3CE025481EE300E24452 /* Assets.xcassets */; };
 		627E3CE425481EE300E24452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627E3CE225481EE300E24452 /* LaunchScreen.storyboard */; };
+		627E3CED2548206D00E24452 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627E3CEC2548206D00E24452 /* Person.swift */; };
+		627E3CF02548208100E24452 /* PersonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627E3CEF2548208100E24452 /* PersonManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		627E3CE025481EE300E24452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627E3CE325481EE300E24452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		627E3CE525481EE300E24452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627E3CEC2548206D00E24452 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		627E3CEF2548208100E24452 /* PersonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				627E3CD925481EE200E24452 /* SceneDelegate.swift */,
 				627E3CDB25481EE200E24452 /* ViewController.swift */,
 				627E3CDD25481EE200E24452 /* Main.storyboard */,
+				627E3CEC2548206D00E24452 /* Person.swift */,
+				627E3CEF2548208100E24452 /* PersonManager.swift */,
 				627E3CE025481EE300E24452 /* Assets.xcassets */,
 				627E3CE225481EE300E24452 /* LaunchScreen.storyboard */,
 				627E3CE525481EE300E24452 /* Info.plist */,
@@ -139,6 +145,8 @@
 			files = (
 				627E3CDC25481EE200E24452 /* ViewController.swift in Sources */,
 				627E3CD825481EE200E24452 /* AppDelegate.swift in Sources */,
+				627E3CED2548206D00E24452 /* Person.swift in Sources */,
+				627E3CF02548208100E24452 /* PersonManager.swift in Sources */,
 				627E3CDA25481EE200E24452 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
